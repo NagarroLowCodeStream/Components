@@ -1,0 +1,51 @@
+@import './custom-variables';
+
+.home_page{
+background-color:#EFF1F4;
+padding:0px;
+}
+
+ .datagridcustom{
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ }
+
+.custom-datagrid_21 .column-selector-button{
+  color: #13294B;
+}
+
+.custom-datagrid_21 > .filter_1 > .filter-selector > .filter-selector-content > .filter-selector-button {
+  color: #13294B;
+}
+
+.custom-datagrid_21 .filter-selector .filter-selector-content .filter-selector-button{
+color: #13294B;
+}
+/*.mx-name-listView2 > ul > .selected{
+  background-color: #D1F5EA;
+}*/
+
+.filter-selector .filter-selector-content .filter-selector-button{
+color: #13294B;
+}
+
+.glyphicon-calendar{
+  color:#13294B;
+}
+.select_a > ul > .selected{
+  background-color: #D1F5EA;
+}
+
+.title{
+    background-color:#FFFF;
+}
+
+.link_color > .mx-link {
+    padding: 0;
+    color: #13294B;
+}
+
+.list_shadow {
+    
+    background-color:#FFFF;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

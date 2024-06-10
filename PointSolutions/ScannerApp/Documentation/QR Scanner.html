@@ -1,0 +1,1762 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <title>Documentation for App 'QR Scanner'</title>
+        <link href='http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css' rel='stylesheet'/>
+        <style>
+            .back-to-top {
+                text-align: right;
+                margin-bottom: 64px;
+            }
+            h5 {
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class='row'>
+                <div class="span3">
+                    <div class="well" style="margin-top: 15px">
+                        <ul class="nav nav-list">
+                            <li class="nav-header">Modules</li>
+                            <li>
+                                <a href='#'>QRScanner</a>
+                                <ul class="nav nav-list">
+                                    <li><a href='#84776610-13b2-48cb-a265-d5e984d63129'>Domain model</a></li>
+                                    <li><a href='#be96bd1b-1114-460d-b7bb-5372d22fd467'>Microflows</a></li>
+                                    <li><a href='#0f34fbe6-2921-4f08-9508-b5909e939d40'>Nanoflows</a></li>
+                                    <li><a href='#d285dd94-8a9c-42b4-ab48-145a10b2b876'>Java actions</a></li>
+                                    <li><a href='#10584f01-c3fc-4008-bac1-2127af1fcde9'>JavaScript actions</a></li>
+                                    <li><a href='#f942b4a4-0e16-4435-b304-89d71a55c461'>Enumerations</a></li>
+                                    <li><a href='#adbdd1f1-a7fd-40df-ab25-15c9b0124655'>Roles</a></li>
+                                    <li><a href='#56df13b9-49b2-40d9-bac3-adfc4ae13367'>Pages</a></li>
+                                    <li><a href='#f911d51a-d183-4557-b58a-1b96f14a2acb'>Snippets</a></li>
+
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="span9">
+                    <h1 id="top">QR Scanner</h1>
+
+                    <h2 id=''>Module 'QRScanner'</h2>
+
+                    <h3 id="84776610-13b2-48cb-a265-d5e984d63129">Domain model</h3>
+                    <p></p>
+                    <div class="back-to-top"><a href="#top">Back to top</a></div>
+                    
+                    <h4>Entities</h4>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 60%"/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Generalization</th>
+                                <th>Documentation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href="#7049bf2c-68ae-465d-b794-9728cac5325c">QRRequest</a></td>
+                                <td></td>
+                                <td>This entity is used for storing all the data of request created.</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#33a1f97a-e14f-4158-aaaa-fbd455fa2c0a">QROutput</a></td>
+                                <td>System.Image</td>
+                                <td>This entity is used for storing the QR and other code as a image.</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#d689c35f-b46a-42a4-a4d1-19ab0d16ac5a">ExportRecord</a></td>
+                                <td>System.FileDocument</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#b9493a46-10d0-4e79-9d1d-c80c54bd52cc">ImportRecords</a></td>
+                                <td>System.FileDocument</td>
+                                <td>This entity is used for storing all the records of imported records.</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#68e02f39-74bf-405f-898e-b9eec23f0271">Configurations</a></td>
+                                <td></td>
+                                <td>This entity is used for the application configurations.</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#e415babf-1afb-4b40-a52e-c91944ca9cc6">StoreImage</a></td>
+                                <td>System.Image</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="back-to-top"><a href="#top">Back to top</a></div>
+                    
+                    <h4 id="7049bf2c-68ae-465d-b794-9728cac5325c">Entity 'QRRequest'</h4>
+                    <p>This entity is used for storing all the data of request created.</p>
+                    
+                    
+                    <h5>Attributes</h5>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 40%"/>
+                        </colgroup>
+                        <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Type</th>
+                            <th>Default value</th>
+                            <th>Documentation</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>RequestID</td>
+                            <td>AutoNumber</td>
+                            <td>1</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Name</td>
+                            <td>String (200)</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Contact</td>
+                            <td>Long</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td>String (200)</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>AppointmentDate</td>
+                            <td>Date and time</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>RequestDate</td>
+                            <td>Date and time</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Service</td>
+                            <td>String (200)</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>QRFormate</td>
+                            <td>Enumeration 'ENUM_QRFormate'</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>RequestURL</td>
+                            <td>String (200)</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>_EmailSent</td>
+                            <td>Boolean</td>
+                            <td>false</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>BarCodeNo</td>
+                            <td>String (200)</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    
+                    <h5>Associations</h5>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 40%"/>
+                        </colgroup>
+                        <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Connected to</th>
+                            <th>Multiplicity</th>
+                            <th>Documentation</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>QRRequest_QROutput</td>
+                            <td>QRScanner.QROutput</td>
+                            <td>OneToMany</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>QRRequest_ExportRecord</td>
+                            <td>QRScanner.ExportRecord</td>
+                            <td>OneToMany</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>QRRequest_ImportRecords</td>
+                            <td>QRScanner.ImportRecords</td>
+                            <td>OneToMany</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>QRRequest_Account</td>
+                            <td>Administration.Account</td>
+                            <td>OneToMany</td>
+                            <td>This association is used fo associating all the creted request with the current user account.</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div>
+                    <h4 id="33a1f97a-e14f-4158-aaaa-fbd455fa2c0a">Entity 'QROutput'</h4>
+                    <p>This entity is used for storing the QR and other code as a image.</p>
+                    
+                    <h5>Generalization</h5>
+                    <p>System.Image</p>
+                    
+                    <h5>Attributes</h5>
+                    Entity 'QROutput' has no attributes.
+                    
+                    <h5>Associations</h5>
+                    Entity 'QROutput' does not own any associations.
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div>
+                    <h4 id="d689c35f-b46a-42a4-a4d1-19ab0d16ac5a">Entity 'ExportRecord'</h4>
+                    <p></p>
+                    
+                    <h5>Generalization</h5>
+                    <p>System.FileDocument</p>
+                    
+                    <h5>Attributes</h5>
+                    Entity 'ExportRecord' has no attributes.
+                    
+                    <h5>Associations</h5>
+                    Entity 'ExportRecord' does not own any associations.
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div>
+                    <h4 id="b9493a46-10d0-4e79-9d1d-c80c54bd52cc">Entity 'ImportRecords'</h4>
+                    <p>This entity is used for storing all the records of imported records.</p>
+                    
+                    <h5>Generalization</h5>
+                    <p>System.FileDocument</p>
+                    
+                    <h5>Attributes</h5>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 40%"/>
+                        </colgroup>
+                        <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Type</th>
+                            <th>Default value</th>
+                            <th>Documentation</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>UserName</td>
+                            <td>String (200)</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Contact</td>
+                            <td>Long</td>
+                            <td>0</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td>String (200)</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>AppointmentDate</td>
+                            <td>Date and time</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Service</td>
+                            <td>String (200)</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    
+                    <h5>Associations</h5>
+                    Entity 'ImportRecords' does not own any associations.
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div>
+                    <h4 id="68e02f39-74bf-405f-898e-b9eec23f0271">Entity 'Configurations'</h4>
+                    <p>This entity is used for the application configurations.</p>
+                    
+                    
+                    <h5>Attributes</h5>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 40%"/>
+                        </colgroup>
+                        <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Type</th>
+                            <th>Default value</th>
+                            <th>Documentation</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>_Name</td>
+                            <td>Boolean</td>
+                            <td>false</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>_Contact</td>
+                            <td>Boolean</td>
+                            <td>false</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>_Email</td>
+                            <td>Boolean</td>
+                            <td>false</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>_AppointmentDate</td>
+                            <td>Boolean</td>
+                            <td>false</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>_Service</td>
+                            <td>Boolean</td>
+                            <td>false</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>_SendEmail</td>
+                            <td>Boolean</td>
+                            <td>true</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>AppName</td>
+                            <td>String (200)</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>BrandingName</td>
+                            <td>String (200)</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>_InService</td>
+                            <td>Boolean</td>
+                            <td>false</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Footer_Terms</td>
+                            <td>String (200)</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Footer_Privecy</td>
+                            <td>String (200)</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Footer_Cookie</td>
+                            <td>String (200)</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Footer_text</td>
+                            <td>String (200)</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    
+                    <h5>Associations</h5>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 40%"/>
+                        </colgroup>
+                        <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Connected to</th>
+                            <th>Multiplicity</th>
+                            <th>Documentation</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Configurations_StoreImage_Branding</td>
+                            <td>QRScanner.StoreImage</td>
+                            <td>OneToOne</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Basic_Configurations_LoginImage</td>
+                            <td>QRScanner.StoreImage</td>
+                            <td>OneToOne</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Basic_Configurations_LoginBrandImage</td>
+                            <td>QRScanner.StoreImage</td>
+                            <td>OneToOne</td>
+                            <td></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div>
+                    <h4 id="e415babf-1afb-4b40-a52e-c91944ca9cc6">Entity 'StoreImage'</h4>
+                    <p></p>
+                    
+                    <h5>Generalization</h5>
+                    <p>System.Image</p>
+                    
+                    <h5>Attributes</h5>
+                    Entity 'StoreImage' has no attributes.
+                    
+                    <h5>Associations</h5>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 40%"/>
+                        </colgroup>
+                        <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Connected to</th>
+                            <th>Multiplicity</th>
+                            <th>Documentation</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Configurations_StoreImage_Branding</td>
+                            <td>QRScanner.StoreImage</td>
+                            <td>OneToOne</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Basic_Configurations_LoginImage</td>
+                            <td>QRScanner.StoreImage</td>
+                            <td>OneToOne</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Basic_Configurations_LoginBrandImage</td>
+                            <td>QRScanner.StoreImage</td>
+                            <td>OneToOne</td>
+                            <td></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div>
+                    
+                    <h4>Annotations</h4>
+                    The domain model has no annotations.
+                    <div class="back-to-top"><a href="#top">Back to top</a></div>
+                    <h3 id="be96bd1b-1114-460d-b7bb-5372d22fd467">Microflows</h3>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 60%"/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Return type</th>
+                                <th>Documentation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href='#2ef55b2f-2fb4-4d29-96ad-6552ea6dd0eb'>ACT_Delete_ImportedRecord</a></td>
+                                <td>Nothing</td>
+                                <td>This microflow is used for deleting single row of imported record.</td>
+                            </tr>
+                            <tr>
+                                <td><a href='#ad91a252-4370-47e3-b396-b17750c3c5e5'>IVK_ImportTemplateDocument</a></td>
+                                <td>Nothing</td>
+                                <td>This cutom IVK microflow is used for importing records with custom logics.<br/></td>
+                            </tr>
+                            <tr>
+                                <td><a href='#ac7db16b-c51e-47e6-8664-fff9fd988e93'>VAL_ImportedRecord</a></td>
+                                <td>Boolean</td>
+                                <td>This microflow is used for validating each record before import.</td>
+                            </tr>
+                            <tr>
+                                <td><a href='#f3111770-b4f4-4d44-b6aa-7627192d9025'>ACT_ExportRecord</a></td>
+                                <td>Nothing</td>
+                                <td>This microflow is used for exporting the created requests record based on check box selection.</td>
+                            </tr>
+                            <tr>
+                                <td><a href='#9786c2a9-8799-471f-a544-bc72f5ff0579'>ACT_DeleteAll_ImportedRecords</a></td>
+                                <td>Nothing</td>
+                                <td>This microflow is used for deletng multiple rows of imported records besed on check box selection.</td>
+                            </tr>
+                            <tr>
+                                <td><a href='#4c3809bf-49eb-40c8-a7b7-71f5ee2dbfd2'>ACT_Create_BulkRequest</a></td>
+                                <td>Nothing</td>
+                                <td>this microflow is creating request for each valid imported records at at time.</td>
+                            </tr>
+                            <tr>
+                                <td><a href='#aaa33c41-47e8-4e93-bc67-bb0fbba4b0dd'>ACT_ShowConfigPage</a></td>
+                                <td>Nothing</td>
+                                <td>This microflow is used for navigating to the configuration overview page.</td>
+                            </tr>
+                            <tr>
+                                <td><a href='#ca761050-dcb6-49c6-8fa7-515caaac0b43'>ACT_SaveConfigChanges</a></td>
+                                <td>Nothing</td>
+                                <td>This microflow is used for saving the applied configurations changes.</td>
+                            </tr>
+                            <tr>
+                                <td><a href='#ee41ab8f-0611-479f-831b-d72705a6d53a'>DS_GetConfigObject</a></td>
+                                <td>QRScanner.Configurations</td>
+                                <td>This microflow is used for returning the configuration entity object.</td>
+                            </tr>
+                            <tr>
+                                <td><a href='#e9447dcb-0073-4a46-b800-46911a61dae3'>ACT_ResetConfig</a></td>
+                                <td>Nothing</td>
+                                <td>This microflow is reseting the configurations setting to default value.</td>
+                            </tr>
+                            <tr>
+                                <td><a href='#b96eb4d4-ffe4-4d6d-925f-2086ec94a7ef'>ACT_CancelChanges</a></td>
+                                <td>Nothing</td>
+                                <td>This microflow is cancelling the applied changes.</td>
+                            </tr>
+                            <tr>
+                                <td><a href='#a8468c1a-281e-4f57-9dc2-6569cd7d95bd'>ACT_SendScheduled_BulkEmail</a></td>
+                                <td>Nothing</td>
+                                <td>This microflow is used for sending emails in bulk on request creation of imported records and also used in scheduled event to end email on scheduled time.</td>
+                            </tr>
+                            <tr>
+                                <td><a href='#51324438-d774-4544-b9ae-798f7b039a93'>SUB__SetAttachments</a></td>
+                                <td>List of Email_Connector.Attachment</td>
+                                <td>This microlfow is called from ACT_SendEmail microflow to attach the QR code in email of respective request.</td>
+                            </tr>
+                            <tr>
+                                <td><a href='#d9b62cc1-6516-4b47-bdb6-60ede897afa7'>ACT_SendEmail</a></td>
+                                <td>Boolean</td>
+                                <td>This microlfow sending the email on submission of each request.</td>
+                            </tr>
+                            <tr>
+                                <td><a href='#ea176a4b-ec90-4441-ab0b-bb40e5046668'>SUB_ShowRequest</a></td>
+                                <td>Nothing</td>
+                                <td>This deeplink microflow redirecting to the view mode page of respective RequestID request.</td>
+                            </tr>
+                            <tr>
+                                <td><a href='#e3d981ca-2adc-48f2-bcfc-cd40e63c3784'>Home_ResponsiveProfile</a></td>
+                                <td>Nothing</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td><a href='#70e4bdee-57ea-4c4d-b29c-067b35e1a787'>DL_ShowRequest</a></td>
+                                <td>Nothing</td>
+                                <td>This deeplink microflow is passing the RequestID aa a input parameter to show the respective request.</td>
+                            </tr>
+                            <tr>
+                                <td><a href='#3f6528ff-adb2-4f1a-bd1a-0385376163f3'>ACT_GetApp_URL</a></td>
+                                <td>Nothing</td>
+                                <td>This microflow generating the application URL for deeplink.</td>
+                            </tr>
+                            <tr>
+                                <td><a href='#0e98df97-7547-4f20-aec5-d4b25bd7dc11'>ACT_GetUser</a></td>
+                                <td>System.User</td>
+                                <td>This microflow is returning the current user object.</td>
+                            </tr>
+                            <tr>
+                                <td><a href='#6466f902-ce04-4609-93a7-010b3c9a3f2a'>OCH_AppointmentDate</a></td>
+                                <td>Nothing</td>
+                                <td>This microflow is used for validating the appointment date input.</td>
+                            </tr>
+                            <tr>
+                                <td><a href='#6ab7512c-309c-40b0-af0a-c3b274099e61'>ACT_SaveRequest</a></td>
+                                <td>Nothing</td>
+                                <td>This microflow is used for submitting the respective request after filling all the input.</td>
+                            </tr>
+                            <tr>
+                                <td><a href='#144a636a-3e6e-4ee8-b002-5e4ac64dd3d0'>DS_ShowOverview</a></td>
+                                <td>List of QRScanner.QRRequest</td>
+                                <td>This data source microflow is used for displaying data of the requested records based on respective users.</td>
+                            </tr>
+                            <tr>
+                                <td><a href='#a213537f-6ffa-49f1-8e3a-150ddb5cff63'>ACT_DeleteAllRequest</a></td>
+                                <td>Nothing</td>
+                                <td>This microflow is used for deleting all the request record based on check bo selection.</td>
+                            </tr>
+                            <tr>
+                                <td><a href='#7a4a828c-b5f3-4dce-b9be-e0fd9309f1bc'>VAL_NewRequest</a></td>
+                                <td>Boolean</td>
+                                <td>This microflow is used for validating the input fields on create request page an submit button.</td>
+                            </tr>
+                            <tr>
+                                <td><a href='#44df84c7-0b69-449e-98cd-3f41a93a4656'>DS_GetCurrentAccount</a></td>
+                                <td>Administration.Account</td>
+                                <td>This microflow is used for returning the current account for rendering the logged in user name on top panel.</td>
+                            </tr>
+                            <tr>
+                                <td><a href='#896077d7-208c-4a16-8bc8-94fd3ec83df2'>ACT_GenerateCode</a></td>
+                                <td>QRScanner.QROutput</td>
+                                <td>This microflow is used for generating the Code based on input string.</td>
+                            </tr>
+                            <tr>
+                                <td><a href='#760168f0-0524-4f9d-87b6-071df2ca9438'>ACT_Download_Code</a></td>
+                                <td>Nothing</td>
+                                <td>This microflow is used for downloading the generated code from viwe mode page.</td>
+                            </tr>
+                            <tr>
+                                <td><a href='#ec8496f3-8a78-4bf7-9f26-9df5e312fdde'>ACT_InitiateRequest</a></td>
+                                <td>Nothing</td>
+                                <td>This microflow is used for creating new request manually.</td>
+                            </tr>
+                            <tr>
+                                <td><a href='#0e8a2afd-b39a-4654-aed8-9e163d6e40e6'>ACT_DeleteRequest</a></td>
+                                <td>Nothing</td>
+                                <td>This microflow is used for deleting single request record.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div>
+                    
+                    <h4 id='2ef55b2f-2fb4-4d29-96ad-6552ea6dd0eb'>Microflow 'ACT_Delete_ImportedRecord'</h4>
+                    <p>This microflow is used for deleting single row of imported record.</p>
+                    
+                    <h5>Parameters</h5>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 60%"/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Documentation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>ImportRecords</td>
+                                <td>QRScanner.ImportRecords</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <h5>Return type</h5>
+                    <p>Nothing</p>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div><h4 id='ad91a252-4370-47e3-b396-b17750c3c5e5'>Microflow 'IVK_ImportTemplateDocument'</h4>
+                    <p>This cutom IVK microflow is used for importing records with custom logics.<br/></p>
+                    
+                    <h5>Parameters</h5>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 60%"/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Documentation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>TemplateDocument</td>
+                                <td>ExcelImporter.TemplateDocument</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <h5>Return type</h5>
+                    <p>Nothing</p>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div><h4 id='ac7db16b-c51e-47e6-8664-fff9fd988e93'>Microflow 'VAL_ImportedRecord'</h4>
+                    <p>This microflow is used for validating each record before import.</p>
+                    
+                    <h5>Parameters</h5>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 60%"/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Documentation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>ImportRecords</td>
+                                <td>QRScanner.ImportRecords</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <h5>Return type</h5>
+                    <p>Boolean</p>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div><h4 id='f3111770-b4f4-4d44-b6aa-7627192d9025'>Microflow 'ACT_ExportRecord'</h4>
+                    <p>This microflow is used for exporting the created requests record based on check box selection.</p>
+                    
+                    <h5>Parameters</h5>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 60%"/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Documentation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>QRRequestList</td>
+                                <td>List of QRScanner.QRRequest</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <h5>Return type</h5>
+                    <p>Nothing</p>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div><h4 id='9786c2a9-8799-471f-a544-bc72f5ff0579'>Microflow 'ACT_DeleteAll_ImportedRecords'</h4>
+                    <p>This microflow is used for deletng multiple rows of imported records besed on check box selection.</p>
+                    
+                    <h5>Parameters</h5>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 60%"/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Documentation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>ImportRecordsList</td>
+                                <td>List of QRScanner.ImportRecords</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <h5>Return type</h5>
+                    <p>Nothing</p>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div><h4 id='4c3809bf-49eb-40c8-a7b7-71f5ee2dbfd2'>Microflow 'ACT_Create_BulkRequest'</h4>
+                    <p>this microflow is creating request for each valid imported records at at time.</p>
+                    
+                    <h5>Parameters</h5>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 60%"/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Documentation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>ImportRecordsList</td>
+                                <td>List of QRScanner.ImportRecords</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <h5>Return type</h5>
+                    <p>Nothing</p>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div><h4 id='aaa33c41-47e8-4e93-bc67-bb0fbba4b0dd'>Microflow 'ACT_ShowConfigPage'</h4>
+                    <p>This microflow is used for navigating to the configuration overview page.</p>
+                    
+                    <h5>Parameters</h5>
+                    This  has no parameters.
+                    
+                    <h5>Return type</h5>
+                    <p>Nothing</p>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div><h4 id='ca761050-dcb6-49c6-8fa7-515caaac0b43'>Microflow 'ACT_SaveConfigChanges'</h4>
+                    <p>This microflow is used for saving the applied configurations changes.</p>
+                    
+                    <h5>Parameters</h5>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 60%"/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Documentation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Basic_Configurations</td>
+                                <td>QRScanner.Configurations</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <h5>Return type</h5>
+                    <p>Nothing</p>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div><h4 id='ee41ab8f-0611-479f-831b-d72705a6d53a'>Microflow 'DS_GetConfigObject'</h4>
+                    <p>This microflow is used for returning the configuration entity object.</p>
+                    
+                    <h5>Parameters</h5>
+                    This  has no parameters.
+                    
+                    <h5>Return type</h5>
+                    <p>QRScanner.Configurations</p>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div><h4 id='e9447dcb-0073-4a46-b800-46911a61dae3'>Microflow 'ACT_ResetConfig'</h4>
+                    <p>This microflow is reseting the configurations setting to default value.</p>
+                    
+                    <h5>Parameters</h5>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 60%"/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Documentation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Basic_Configurations</td>
+                                <td>QRScanner.Configurations</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <h5>Return type</h5>
+                    <p>Nothing</p>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div><h4 id='b96eb4d4-ffe4-4d6d-925f-2086ec94a7ef'>Microflow 'ACT_CancelChanges'</h4>
+                    <p>This microflow is cancelling the applied changes.</p>
+                    
+                    <h5>Parameters</h5>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 60%"/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Documentation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Basic_Configurations</td>
+                                <td>QRScanner.Configurations</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <h5>Return type</h5>
+                    <p>Nothing</p>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div><h4 id='a8468c1a-281e-4f57-9dc2-6569cd7d95bd'>Microflow 'ACT_SendScheduled_BulkEmail'</h4>
+                    <p>This microflow is used for sending emails in bulk on request creation of imported records and also used in scheduled event to end email on scheduled time.</p>
+                    
+                    <h5>Parameters</h5>
+                    This  has no parameters.
+                    
+                    <h5>Return type</h5>
+                    <p>Nothing</p>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div><h4 id='51324438-d774-4544-b9ae-798f7b039a93'>Microflow 'SUB__SetAttachments'</h4>
+                    <p>This microlfow is called from ACT_SendEmail microflow to attach the QR code in email of respective request.</p>
+                    
+                    <h5>Parameters</h5>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 60%"/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Documentation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Image</td>
+                                <td>System.Image</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Email</td>
+                                <td>Email_Connector.EmailMessage</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <h5>Return type</h5>
+                    <p>List of Email_Connector.Attachment</p>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div><h4 id='d9b62cc1-6516-4b47-bdb6-60ede897afa7'>Microflow 'ACT_SendEmail'</h4>
+                    <p>This microlfow sending the email on submission of each request.</p>
+                    
+                    <h5>Parameters</h5>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 60%"/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Documentation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>QRRequest</td>
+                                <td>QRScanner.QRRequest</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <h5>Return type</h5>
+                    <p>Boolean</p>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div><h4 id='ea176a4b-ec90-4441-ab0b-bb40e5046668'>Microflow 'SUB_ShowRequest'</h4>
+                    <p>This deeplink microflow redirecting to the view mode page of respective RequestID request.</p>
+                    
+                    <h5>Parameters</h5>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 60%"/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Documentation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>RequestID</td>
+                                <td>Integer/Long</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <h5>Return type</h5>
+                    <p>Nothing</p>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div><h4 id='e3d981ca-2adc-48f2-bcfc-cd40e63c3784'>Microflow 'Home_ResponsiveProfile'</h4>
+                    <p></p>
+                    
+                    <h5>Parameters</h5>
+                    This  has no parameters.
+                    
+                    <h5>Return type</h5>
+                    <p>Nothing</p>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div><h4 id='70e4bdee-57ea-4c4d-b29c-067b35e1a787'>Microflow 'DL_ShowRequest'</h4>
+                    <p>This deeplink microflow is passing the RequestID aa a input parameter to show the respective request.</p>
+                    
+                    <h5>Parameters</h5>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 60%"/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Documentation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>RequestID</td>
+                                <td>String</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <h5>Return type</h5>
+                    <p>Nothing</p>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div><h4 id='3f6528ff-adb2-4f1a-bd1a-0385376163f3'>Microflow 'ACT_GetApp_URL'</h4>
+                    <p>This microflow generating the application URL for deeplink.</p>
+                    
+                    <h5>Parameters</h5>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 60%"/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Documentation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>QRRequest</td>
+                                <td>QRScanner.QRRequest</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <h5>Return type</h5>
+                    <p>Nothing</p>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div><h4 id='0e98df97-7547-4f20-aec5-d4b25bd7dc11'>Microflow 'ACT_GetUser'</h4>
+                    <p>This microflow is returning the current user object.</p>
+                    
+                    <h5>Parameters</h5>
+                    This  has no parameters.
+                    
+                    <h5>Return type</h5>
+                    <p>System.User</p>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div><h4 id='6466f902-ce04-4609-93a7-010b3c9a3f2a'>Microflow 'OCH_AppointmentDate'</h4>
+                    <p>This microflow is used for validating the appointment date input.</p>
+                    
+                    <h5>Parameters</h5>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 60%"/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Documentation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>QRRequest</td>
+                                <td>QRScanner.QRRequest</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <h5>Return type</h5>
+                    <p>Nothing</p>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div><h4 id='6ab7512c-309c-40b0-af0a-c3b274099e61'>Microflow 'ACT_SaveRequest'</h4>
+                    <p>This microflow is used for submitting the respective request after filling all the input.</p>
+                    
+                    <h5>Parameters</h5>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 60%"/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Documentation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>QRRequest</td>
+                                <td>QRScanner.QRRequest</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <h5>Return type</h5>
+                    <p>Nothing</p>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div><h4 id='144a636a-3e6e-4ee8-b002-5e4ac64dd3d0'>Microflow 'DS_ShowOverview'</h4>
+                    <p>This data source microflow is used for displaying data of the requested records based on respective users.</p>
+                    
+                    <h5>Parameters</h5>
+                    This  has no parameters.
+                    
+                    <h5>Return type</h5>
+                    <p>List of QRScanner.QRRequest</p>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div><h4 id='a213537f-6ffa-49f1-8e3a-150ddb5cff63'>Microflow 'ACT_DeleteAllRequest'</h4>
+                    <p>This microflow is used for deleting all the request record based on check bo selection.</p>
+                    
+                    <h5>Parameters</h5>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 60%"/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Documentation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>QRRequestList</td>
+                                <td>List of QRScanner.QRRequest</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <h5>Return type</h5>
+                    <p>Nothing</p>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div><h4 id='7a4a828c-b5f3-4dce-b9be-e0fd9309f1bc'>Microflow 'VAL_NewRequest'</h4>
+                    <p>This microflow is used for validating the input fields on create request page an submit button.</p>
+                    
+                    <h5>Parameters</h5>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 60%"/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Documentation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>QRRequest</td>
+                                <td>QRScanner.QRRequest</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <h5>Return type</h5>
+                    <p>Boolean</p>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div><h4 id='44df84c7-0b69-449e-98cd-3f41a93a4656'>Microflow 'DS_GetCurrentAccount'</h4>
+                    <p>This microflow is used for returning the current account for rendering the logged in user name on top panel.</p>
+                    
+                    <h5>Parameters</h5>
+                    This  has no parameters.
+                    
+                    <h5>Return type</h5>
+                    <p>Administration.Account</p>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div><h4 id='896077d7-208c-4a16-8bc8-94fd3ec83df2'>Microflow 'ACT_GenerateCode'</h4>
+                    <p>This microflow is used for generating the Code based on input string.</p>
+                    
+                    <h5>Parameters</h5>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 60%"/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Documentation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>QRRequest</td>
+                                <td>QRScanner.QRRequest</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <h5>Return type</h5>
+                    <p>QRScanner.QROutput</p>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div><h4 id='760168f0-0524-4f9d-87b6-071df2ca9438'>Microflow 'ACT_Download_Code'</h4>
+                    <p>This microflow is used for downloading the generated code from viwe mode page.</p>
+                    
+                    <h5>Parameters</h5>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 60%"/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Documentation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>QRRequest</td>
+                                <td>QRScanner.QRRequest</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <h5>Return type</h5>
+                    <p>Nothing</p>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div><h4 id='ec8496f3-8a78-4bf7-9f26-9df5e312fdde'>Microflow 'ACT_InitiateRequest'</h4>
+                    <p>This microflow is used for creating new request manually.</p>
+                    
+                    <h5>Parameters</h5>
+                    This  has no parameters.
+                    
+                    <h5>Return type</h5>
+                    <p>Nothing</p>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div><h4 id='0e8a2afd-b39a-4654-aed8-9e163d6e40e6'>Microflow 'ACT_DeleteRequest'</h4>
+                    <p>This microflow is used for deleting single request record.</p>
+                    
+                    <h5>Parameters</h5>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 60%"/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Documentation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>QRRequest</td>
+                                <td>QRScanner.QRRequest</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <h5>Return type</h5>
+                    <p>Nothing</p>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div>
+
+                    <h3 id="0f34fbe6-2921-4f08-9508-b5909e939d40">Nanoflows</h3>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 60%"/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Return type</th>
+                                <th>Documentation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href='#98f11473-3a78-40d4-83c0-47acd8127649'>ACT_ChangeLang</a></td>
+                                <td>Nothing</td>
+                                <td>This nanoflow is used for changing the language by passing the language object to the JS action.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div>
+                    
+                    <h4 id='98f11473-3a78-40d4-83c0-47acd8127649'>Nanoflow 'ACT_ChangeLang'</h4>
+                    <p>This nanoflow is used for changing the language by passing the language object to the JS action.</p>
+                    
+                    <h5>Parameters</h5>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 60%"/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Documentation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>User</td>
+                                <td>System.User</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <h5>Return type</h5>
+                    <p>Nothing</p>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div>
+                    <h3 id="d285dd94-8a9c-42b4-ab48-145a10b2b876">Java actions</h3>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 60%"/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Return type</th>
+                                <th>Documentation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href='#593e067a-0449-4339-99ea-687097133887'>GenerateQRCode</a></td>
+                                <td>Nothing</td>
+                                <td>This java action is used for generating the QR and Bar code based in the input string.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div>
+                    
+                    <h4 id='593e067a-0449-4339-99ea-687097133887'>Java action 'GenerateQRCode'</h4>
+                    <p>This java action is used for generating the QR and Bar code based in the input string.</p>
+                    
+                    <h5>Type parameters</h5>
+                    This  has no type parameters.
+                    
+                    <h5>Parameters</h5>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 60%"/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Documentation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>text</td>
+                                <td>String</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>format</td>
+                                <td>Enumeration QRScanner.ENUM_QRFormate</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>width</td>
+                                <td>Integer/Long</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>height</td>
+                                <td>Integer/Long</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>destination</td>
+                                <td>System.Image</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <h5>Return type</h5>
+                    <p>Nothing</p>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div>
+                    <h3 id="10584f01-c3fc-4008-bac1-2127af1fcde9">JavaScript actions</h3>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 60%"/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Return type</th>
+                                <th>Documentation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href='#c22dcec9-73a6-4fa0-8b48-b11dca5b8de3'>JS_LangSetting</a></td>
+                                <td>Nothing</td>
+                                <td>This javascript action is used to set page language according to user selects the language.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div>
+                    
+                    <h4 id='c22dcec9-73a6-4fa0-8b48-b11dca5b8de3'>JavaScript action 'JS_LangSetting'</h4>
+                    <p>This javascript action is used to set page language according to user selects the language.</p>
+                    
+                    <h5>Type parameters</h5>
+                    This  has no type parameters.
+                    
+                    <h5>Parameters</h5>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 20%"/>
+                            <col style="width: 60%"/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Documentation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>TargetLanguage</td>
+                                <td>String</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <h5>Return type</h5>
+                    <p>Nothing</p>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div>
+
+                    <h3 id="f942b4a4-0e16-4435-b304-89d71a55c461">Enumerations</h3>
+                    
+                    
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 30%"/>
+                            <col style="width: 70%"/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Documentation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href='#84e49dfa-69d9-4ec0-9d57-cd95858cbb1b'>ENUM_QRFormate</a></td>
+                                <td>This Enum is used for dropdown value for the different Code generation.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div>
+                    
+                    <h4 id="84e49dfa-69d9-4ec0-9d57-cd95858cbb1b">Enumeration 'ENUM_QRFormate'</h4>
+                    <p>This Enum is used for dropdown value for the different Code generation.</p>
+                    
+                    <h5>Values</h5>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 30%"/>
+                            <col style="width: 70%"/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Caption</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>CODABAR</td>
+                                <td>Bar Code</td>
+                            </tr>
+                            <tr>
+                                <td>DATA_MATRIX</td>
+                                <td>Data Matrix</td>
+                            </tr>
+                            <tr>
+                                <td>QR_CODE</td>
+                                <td>QR Code</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div>
+
+                    <h3 id="adbdd1f1-a7fd-40df-ab25-15c9b0124655">ModuleRoles</h3>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 30%"/>
+                            <col style="width: 70%"/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Documentation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>User</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Administrator</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Anonymous</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div>
+                    <h3 id="56df13b9-49b2-40d9-bac3-adfc4ae13367">Pages</h3>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 20%"/>
+                            <col style="width: 50%"/>
+                            <col style="width: 30%"/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Title</th>
+                                <th>Documentation</th>
+                                <th>Allowed Roles</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Homepage</td>
+                                <td></td>
+                                <td>QRScanner.User</td>
+                            </tr>
+                            <tr>
+                                <td>Login</td>
+                                <td>This is the login page for the application.</td>
+                                <td>QRScanner.Anonymous, QRScanner.User</td>
+                            </tr>
+                            <tr>
+                                <td>Edit Imported Records</td>
+                                <td>This pages is used for edit single imported record from the Imported record overview page.</td>
+                                <td>QRScanner.Administrator</td>
+                            </tr>
+                            <tr>
+                                <td>Excel Importer</td>
+                                <td>This page is used for configuration of import record trmplates.</td>
+                                <td>QRScanner.Administrator</td>
+                            </tr>
+                            <tr>
+                                <td>Imported Records Overview</td>
+                                <td>This page showing the data of all the imported records.</td>
+                                <td>QRScanner.Administrator</td>
+                            </tr>
+                            <tr>
+                                <td>View Request</td>
+                                <td>This page is for view mode of the submitted/Created request with all the input fields with view mode only.</td>
+                                <td>QRScanner.Administrator, QRScanner.User</td>
+                            </tr>
+                            <tr>
+                                <td>Page 2</td>
+                                <td>This page used for configurations of the email and their templates.</td>
+                                <td>QRScanner.Administrator</td>
+                            </tr>
+                            <tr>
+                                <td>Page 2</td>
+                                <td>This page is used for deeplink configuration from navigation panel.</td>
+                                <td>QRScanner.Administrator</td>
+                            </tr>
+                            <tr>
+                                <td>Request Overview</td>
+                                <td>This page is showing all the requested record (Manual + imported) based on current user constraints.</td>
+                                <td>QRScanner.Administrator, QRScanner.User</td>
+                            </tr>
+                            <tr>
+                                <td>New Request</td>
+                                <td>This page is used for creating the new request and submitting manually.</td>
+                                <td>QRScanner.Administrator, QRScanner.User</td>
+                            </tr>
+                            <tr>
+                                <td>View Request</td>
+                                <td>This page is for view mode of the submitted/Created request with all the input fields with view mode only.</td>
+                                <td>QRScanner.Administrator, QRScanner.User</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div>
+
+
+
+
+
+
+
+
+
+                    <h3 id="f911d51a-d183-4557-b58a-1b96f14a2acb">Snippets</h3>
+                    <table class='table table-striped table-bordered'>
+                        <colgroup>
+                            <col style="width: 30%"/>
+                            <col style="width: 70%"/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Documentation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>SNIP_UserDetail</td>
+                                <td>This snippet showing short information about logged in user.</td>
+                            </tr>
+                            <tr>
+                                <td>SNIP_Branding</td>
+                                <td>This snipeet is used for providing the dynamic configurations for the application name and branding.</td>
+                            </tr>
+                            <tr>
+                                <td>SNIP_LangSetting</td>
+                                <td>this snippet is used for selecting the language from the language dropdown.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <div class="back-to-top"><a href="#top">Back to top</a></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
