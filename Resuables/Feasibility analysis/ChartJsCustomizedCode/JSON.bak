@@ -1,0 +1,1285 @@
+{
+            "charts": [
+              {
+                "categoryDatasets": [
+                  {
+                    "categoryAttributeValue": "Status",
+                    "xAttributeValues": [
+                      {
+                        "relatedBusinessKeys": [
+                          "PendingData1",
+                          "PendingData2",
+                          "PendingData3",
+                          "PendingData4",
+                          "PendingData5",
+                          "PendingData6",
+                          "PendingData7",
+                          "PendingData8",
+                          "PendingData9",
+                          "PendingData10",
+                          "PendingData11",
+                          "PendingData12",
+                          "PendingData13",
+                          "PendingData14",
+                          "PendingData15",
+                          "PendingData15",
+                          "PendingData17",
+                          "PendingData18",
+                          "PendingData19",
+                          "PendingData20",
+                          "PendingData21"
+                        ],
+                        "value": "Pending"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "InProgressData1",
+                          "InProgressData2",
+                          "InProgressData3",
+                          "InProgressData4",
+                          "InProgressData5",
+                          "InProgressData6",
+                          "InProgressData7",
+                          "InProgressData8",
+                          "InProgressData9",
+                          "InProgressData10",
+                          "InProgressData11",
+                          "InProgressData12",
+                          "InProgressData13",
+                          "InProgressData14",
+                          "InProgressData15",
+                          "InProgressData16",
+                          "InProgressData17",
+                          "InProgressData18",
+                          "InProgressData19",
+                          "InProgressData20",
+                          "InProgressData21",
+                          "InProgressData22",
+                          "InProgressData23",
+                          "InProgressData24",
+                          "InProgressData25",
+                          "InProgressData26",
+                          "InProgressData27",
+                          "InProgressData28",
+                          "InProgressData29",
+                          "InProgressData30",
+                          "InProgressData31",
+                          "InProgressData32",
+                          "InProgressData33",
+                          "InProgressData34",
+                          "InProgressData35",
+                          "InProgressData36",
+                          "InProgressData37",
+                          "InProgressData38",
+                          "InProgressData39",
+                        ],
+                        "value": "InProgress"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "OnHoldData1",
+                          "OnHoldData2",
+                          "OnHoldData3",
+                          "OnHoldData4",
+                          "OnHoldData5",
+                          "OnHoldData6",
+                          "OnHoldData7",
+                          "OnHoldData8",
+                          "OnHoldData9",
+                          "OnHoldData10",
+                        ],
+                        "value": "OnHold"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "CompleteData1",
+                          "CompleteData2",
+                          "CompleteData3",
+                          "CompleteData4",
+                          "CompleteData5",
+                          "CompleteData6",
+                          "CompleteData7",
+                          "CompleteData8",
+                          "CompleteData9",
+                          "CompleteData10",
+                          "CompleteData11",
+                          "CompleteData12",
+                          "CompleteData13",
+                          "CompleteData14"
+                        ],
+                        "value": "Complete"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "CancelledData1",
+                          "CancelledData2",
+                          "CancelledData3",
+                          "CancelledData4",
+                          "CancelledData5",
+                          "CancelledData6",
+                          "CancelledData7",
+                          "CancelledData8",
+                          "CancelledData9",
+                          "CancelledData10",
+                          "CancelledData11",
+                          "CancelledData12",
+                          "CancelledData13",
+                          "CancelledData14",
+                          "CancelledData15",
+                          "CancelledData16",
+                        ],
+                        "value": "Cancelled"
+                      },
+                    ],
+                    "yAttributeValues": [
+                      21,39, 10, 14,16
+                    ]
+                  }
+                ],
+                "chartType": "pie",
+                "stylingInfo": {
+                  "displayDataLabels": true,
+                  "plotDisplayTitle": "Pie Chart"
+                }
+              },
+              {
+                "categoryDatasets": [
+                  {
+                    "categoryAttributeValue": "DataSet1",
+                    "xAttributeValues": [
+                      {
+                        "relatedBusinessKeys": [
+                          "PendingData1",
+                          "PendingData2"
+                        ],
+                        "value": "Pending"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "InProgressData1",
+                          "InProgressData2",
+                          "InProgressData3",
+                          "InProgressData4",
+                          "InProgressData5",
+                          "InProgressData6",
+                          "InProgressData7",
+                          "InProgressData8",
+                          "InProgressData9",
+                          "InProgressData10",
+                        ],
+                        "value": "InProgress"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "OnHoldData1",
+                          "OnHoldData2",
+                          "OnHoldData3",
+                          "OnHoldData4",
+                          "OnHoldData5",
+                          "OnHoldData6",
+                          "OnHoldData7",
+                        ],
+                        "value": "OnHold"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                         "CompleteData1",
+                          "CompleteData2",
+                          "CompleteData3",
+                        ],
+                        "value": "Complete"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "CancelledData1"
+                        ],
+                        "value": "Cancelled"
+                      },
+                    ],
+                    "yAttributeValues": [
+                      2, 10,7,3,1
+                    ]
+                  },
+                  {
+                    "categoryAttributeValue": "DataSet2",
+                    "xAttributeValues": [
+                    {
+                        "relatedBusinessKeys": [
+                          "PendingData1",
+                          "PendingData2",
+                          "PendingData3",
+                          "PendingData4",
+                          "PendingData5",
+                          "PendingData6",
+                          "PendingData7",
+                          "PendingData8",
+                          "PendingData9",
+                          "PendingData10",
+                          "PendingData11",
+                          "PendingData12",
+                        ],
+                        "value": "Pending"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "InProgressData1",
+                          "InProgressData2",
+                        ],
+                        "value": "InProgress"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "OnHoldData1",
+                        ],
+                        "value": "OnHold"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "CompleteData1",
+                          "CompleteData2",
+                          "CompleteData3",
+                          "CompleteData4",
+                          "CompleteData5",
+                          "CompleteData6",
+                          "CompleteData7",
+                          "CompleteData8",
+                          "CompleteData9",
+                          "CompleteData10",
+                          "CompleteData11",
+                          "CompleteData12",
+                          "CompleteData13",
+                          "CompleteData14",
+                          "CompleteData15"
+                        ],
+                        "value": "Complete"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "CancelledData1",
+                        ],
+                        "value": "Cancelled"
+                      },
+                      
+                    ],
+                    "yAttributeValues": [
+                      12,
+                      2,
+                      1,
+                      15,
+                      1
+                    ]
+                  },
+                  {
+                    "categoryAttributeValue": "DataSet3",
+                    "xAttributeValues": [
+                      {
+                        "relatedBusinessKeys": [
+                          "PendingData1",
+                          "PendingData2",
+                          "PendingData3",
+                          "PendingData4",
+                          "PendingData5",
+                          "PendingData6",
+                          "PendingData7",
+                          "PendingData8",
+                          "PendingData9",
+                          "PendingData10",
+                          "PendingData11",
+                          "PendingData12",
+                          "PendingData13",
+                          "PendingData14",
+                          "PendingData15",
+                          "PendingData15",
+                          "PendingData17",
+                          "PendingData18",
+                          "PendingData19",
+                          "PendingData20",
+                        ],
+                        "value": "Pending"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "InProgressData1",
+                          "InProgressData2",
+                          "InProgressData3"
+                        ],
+                        "value": "InProgress"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                         "OnHoldData1",
+                          "OnHoldData2",
+                        ],
+                        "value": "OnHold"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                        "CompleteData1",
+                          "CompleteData2",
+                          "CompleteData3",
+                          "CompleteData4",
+                          "CompleteData5",
+                          "CompleteData6",
+                          "CompleteData7",
+                          "CompleteData8",
+                        ],
+                        "value": "Complete"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "CancelledData1",
+                          "CancelledData2",
+                          "CancelledData3",
+                          "CancelledData4",
+                        ],
+                        "value": "Cancelled"
+                      },
+                    ],
+                    "yAttributeValues": [
+                      20,
+                      3,
+                      2,
+                      8,
+                      4
+                    ]
+                  }
+                ],
+                "chartType": "stackedHorizontalBar",
+                "stylingInfo": {
+                  "displayDataLabels": true,
+                  "plotDisplayTitle": "Stacked Horizontal Bar Chart"
+                }
+              },
+              {
+                "categoryDatasets": [
+                  {
+                    "categoryAttributeValue": "Status",
+                    "xAttributeValues": [
+                      {
+                        "relatedBusinessKeys": [
+                          "PendingData1",
+                          "PendingData2",
+                          "PendingData3",
+                          "PendingData4",
+                          "PendingData5",
+                          "PendingData6",
+                          "PendingData7",
+                          "PendingData8",
+                          "PendingData9",
+                          "PendingData10",
+                          "PendingData11",
+                          "PendingData12",
+                          "PendingData13",
+                          "PendingData14",
+                          "PendingData15",
+                          "PendingData15",
+                          "PendingData17",
+                          "PendingData18",
+                          "PendingData19",
+                          "PendingData20",
+                          "PendingData21"
+                        ],
+                        "value": "Pending"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "InProgressData1",
+                          "InProgressData2",
+                          "InProgressData3",
+                          "InProgressData4",
+                          "InProgressData5",
+                          "InProgressData6",
+                          "InProgressData7",
+                          "InProgressData8",
+                          "InProgressData9",
+                          "InProgressData10",
+                          "InProgressData11",
+                          "InProgressData12",
+                          "InProgressData13",
+                          "InProgressData14",
+                          "InProgressData15",
+                          "InProgressData16",
+                          "InProgressData17",
+                          "InProgressData18",
+                          "InProgressData19",
+                          "InProgressData20",
+                          "InProgressData21",
+                          "InProgressData22",
+                          "InProgressData23",
+                          "InProgressData24",
+                          "InProgressData25",
+                          "InProgressData26",
+                          "InProgressData27",
+                          "InProgressData28",
+                          "InProgressData29",
+                          "InProgressData30",
+                          "InProgressData31",
+                          "InProgressData32",
+                          "InProgressData33",
+                          "InProgressData34",
+                          "InProgressData35",
+                          "InProgressData36",
+                          "InProgressData37",
+                          "InProgressData38",
+                          "InProgressData39",
+                        ],
+                        "value": "InProgress"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "OnHoldData1",
+                          "OnHoldData2",
+                          "OnHoldData3",
+                          "OnHoldData4",
+                          "OnHoldData5",
+                          "OnHoldData6",
+                          "OnHoldData7",
+                          "OnHoldData8",
+                          "OnHoldData9",
+                          "OnHoldData10",
+                        ],
+                        "value": "OnHold"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "CompleteData1",
+                          "CompleteData2",
+                          "CompleteData3",
+                          "CompleteData4",
+                          "CompleteData5",
+                          "CompleteData6",
+                          "CompleteData7",
+                          "CompleteData8",
+                          "CompleteData9",
+                          "CompleteData10",
+                          "CompleteData11",
+                          "CompleteData12",
+                          "CompleteData13",
+                          "CompleteData14"
+                        ],
+                        "value": "Complete"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "CancelledData1",
+                          "CancelledData2",
+                          "CancelledData3",
+                          "CancelledData4",
+                          "CancelledData5",
+                          "CancelledData6",
+                          "CancelledData7",
+                          "CancelledData8",
+                          "CancelledData9",
+                          "CancelledData10",
+                          "CancelledData11",
+                          "CancelledData12",
+                          "CancelledData13",
+                          "CancelledData14",
+                          "CancelledData15",
+                          "CancelledData16",
+                        ],
+                        "value": "Cancelled"
+                      },
+                    ],
+                    "yAttributeValues": [
+                      21,39, 10, 14,16
+                    ]
+                  }
+                ],
+                "chartType": "doughnut",
+                "stylingInfo": {
+                  "displayDataLabels": true,
+                  "plotDisplayTitle": "Doughnut Chart"
+                }
+              },
+              {
+                "categoryDatasets": [
+                  {
+                    "categoryAttributeValue": "DataSet1",
+                    "xAttributeValues": [
+                      {
+                        "relatedBusinessKeys": [
+                          "PendingData1",
+                          "PendingData2"
+                        ],
+                        "value": "Pending"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "InProgressData1",
+                          "InProgressData2",
+                          "InProgressData3",
+                          "InProgressData4",
+                          "InProgressData5",
+                          "InProgressData6",
+                          "InProgressData7",
+                          "InProgressData8",
+                          "InProgressData9",
+                          "InProgressData10",
+                        ],
+                        "value": "InProgress"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "OnHoldData1",
+                          "OnHoldData2",
+                          "OnHoldData3",
+                          "OnHoldData4",
+                          "OnHoldData5",
+                          "OnHoldData6",
+                          "OnHoldData7",
+                        ],
+                        "value": "OnHold"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                         "CompleteData1",
+                          "CompleteData2",
+                          "CompleteData3",
+                        ],
+                        "value": "Complete"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "CancelledData1"
+                        ],
+                        "value": "Cancelled"
+                      },
+                    ],
+                    "yAttributeValues": [
+                      2, 10,7,3,1
+                    ]
+                  },
+                  {
+                    "categoryAttributeValue": "DataSet2",
+                    "xAttributeValues": [
+                    {
+                        "relatedBusinessKeys": [
+                          "PendingData1",
+                          "PendingData2",
+                          "PendingData3",
+                          "PendingData4",
+                          "PendingData5",
+                          "PendingData6",
+                          "PendingData7",
+                          "PendingData8",
+                          "PendingData9",
+                          "PendingData10",
+                          "PendingData11",
+                          "PendingData12",
+                        ],
+                        "value": "Pending"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "InProgressData1",
+                          "InProgressData2",
+                        ],
+                        "value": "InProgress"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "OnHoldData1",
+                        ],
+                        "value": "OnHold"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "CompleteData1",
+                          "CompleteData2",
+                          "CompleteData3",
+                          "CompleteData4",
+                          "CompleteData5",
+                          "CompleteData6",
+                          "CompleteData7",
+                          "CompleteData8",
+                          "CompleteData9",
+                          "CompleteData10",
+                          "CompleteData11",
+                          "CompleteData12",
+                          "CompleteData13",
+                          "CompleteData14",
+                          "CompleteData15"
+                        ],
+                        "value": "Complete"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "CancelledData1",
+                        ],
+                        "value": "Cancelled"
+                      },
+                      
+                    ],
+                    "yAttributeValues": [
+                      12,
+                      2,
+                      1,
+                      15,
+                      1
+                    ]
+                  },
+                  {
+                    "categoryAttributeValue": "DataSet3",
+                    "xAttributeValues": [
+                      {
+                        "relatedBusinessKeys": [
+                          "PendingData1",
+                          "PendingData2",
+                          "PendingData3",
+                          "PendingData4",
+                          "PendingData5",
+                          "PendingData6",
+                          "PendingData7",
+                          "PendingData8",
+                          "PendingData9",
+                          "PendingData10",
+                          "PendingData11",
+                          "PendingData12",
+                          "PendingData13",
+                          "PendingData14",
+                          "PendingData15",
+                          "PendingData15",
+                          "PendingData17",
+                          "PendingData18",
+                          "PendingData19",
+                          "PendingData20",
+                        ],
+                        "value": "Pending"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "InProgressData1",
+                          "InProgressData2",
+                          "InProgressData3"
+                        ],
+                        "value": "InProgress"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                         "OnHoldData1",
+                          "OnHoldData2",
+                        ],
+                        "value": "OnHold"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                        "CompleteData1",
+                          "CompleteData2",
+                          "CompleteData3",
+                          "CompleteData4",
+                          "CompleteData5",
+                          "CompleteData6",
+                          "CompleteData7",
+                          "CompleteData8",
+                        ],
+                        "value": "Complete"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "CancelledData1",
+                          "CancelledData2",
+                          "CancelledData3",
+                          "CancelledData4",
+                        ],
+                        "value": "Cancelled"
+                      },
+                    ],
+                    "yAttributeValues": [
+                      20,
+                      3,
+                      2,
+                      8,
+                      4
+                    ]
+                  }
+                ],
+                "chartType": "stackedVerticalBar",
+                "stylingInfo": {
+                  "displayDataLabels": true,
+                  "plotDisplayTitle": "Stacked Vertical Bar Chart"
+                }
+              },
+              {
+                "categoryDatasets": [
+                  {
+                    "categoryAttributeValue": "Number of Letters",
+                    "xAttributeValues": [
+                      {
+                        "relatedBusinessKeys": [
+                          "Letter1"
+                        ],
+                        "value": "2021-04"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "Letter1",
+                          "Letter2"
+                        ],
+                        "value": "2021-06"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "Letter1"
+                        ],
+                        "value": "2021-07"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "Letter1"
+                        ],
+                        "value": "2021-08"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "Letter1",
+                          "Letter2"
+                        ],
+                        "value": "2021-09"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "Letter1"
+                        ],
+                        "value": "2021-10"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "Letter1",
+                          "Letter2",
+                          "Letter3"
+                        ],
+                        "value": "2021-11"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "Letter1",
+                          "Letter2"
+                        ],
+                        "value": "2021-14"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "Letter1",
+                          "Letter2",
+                          "Letter3"
+                        ],
+                        "value": "2021-16"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "Letter1",
+                          "Letter2",
+                          "Letter3"
+                        ],
+                        "value": "2021-17"
+                      }
+                      
+                    ],
+                    "yAttributeValues": [
+                      1,
+                      2,
+                      1,
+                      1,
+                      2,
+                      1,
+                      3,
+                      2,
+                      3,
+                      3
+                      
+                    ]
+                  }
+                ],
+                "chartType": "line",
+                "stylingInfo": {
+                  "displayDataLabels": true,
+                  "plotDisplayTitle": "line Chart"
+                }
+              },
+              {
+                 "categoryDatasets": [
+                  {
+                    "categoryAttributeValue": "DataSet1",
+                    "xAttributeValues": [
+                      {
+                        "relatedBusinessKeys": [
+                          "PendingData1",
+                          "PendingData2",
+                          "PendingData3",
+                          "PendingData4",
+                          "PendingData5",
+                          "PendingData6",
+                          "PendingData7",
+                          "PendingData8",
+                          "PendingData9",
+                          "PendingData10",
+                          "PendingData11",
+                          "PendingData12",
+                          "PendingData13",
+                          "PendingData14",
+                          "PendingData15",
+                          "PendingData15",
+                          "PendingData17",
+                          "PendingData18",
+                          "PendingData19",
+                          "PendingData20",
+                          "PendingData21"
+                        ],
+                        "value": "Pending"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "InProgressData1",
+                          "InProgressData2",
+                          "InProgressData3",
+                          "InProgressData4",
+                          "InProgressData5",
+                          "InProgressData6",
+                          "InProgressData7",
+                          "InProgressData8",
+                          "InProgressData9",
+                          "InProgressData10",
+                          "InProgressData11",
+                          "InProgressData12",
+                          "InProgressData13",
+                          "InProgressData14",
+                          "InProgressData15",
+                          "InProgressData16",
+                          "InProgressData17",
+                          "InProgressData18",
+                          "InProgressData19",
+                          "InProgressData20",
+                          "InProgressData21",
+                          "InProgressData22",
+                          "InProgressData23",
+                          "InProgressData24",
+                          "InProgressData25",
+                          "InProgressData26",
+                          "InProgressData27",
+                          "InProgressData28",
+                          "InProgressData29",
+                          "InProgressData30",
+                          "InProgressData31",
+                          "InProgressData32",
+                          "InProgressData33",
+                          "InProgressData34",
+                          "InProgressData35",
+                          "InProgressData36",
+                          "InProgressData37",
+                          "InProgressData38",
+                          "InProgressData39",
+                        ],
+                        "value": "InProgress"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "OnHoldData1",
+                          "OnHoldData2",
+                          "OnHoldData3",
+                          "OnHoldData4",
+                          "OnHoldData5",
+                          "OnHoldData6",
+                          "OnHoldData7",
+                          "OnHoldData8",
+                          "OnHoldData9",
+                          "OnHoldData10",
+                        ],
+                        "value": "OnHold"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "CompleteData1",
+                          "CompleteData2",
+                          "CompleteData3",
+                          "CompleteData4",
+                          "CompleteData5",
+                          "CompleteData6",
+                          "CompleteData7",
+                          "CompleteData8",
+                          "CompleteData9",
+                          "CompleteData10",
+                          "CompleteData11",
+                          "CompleteData12",
+                          "CompleteData13",
+                          "CompleteData14"
+                        ],
+                        "value": "Complete"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "CancelledData1",
+                          "CancelledData2",
+                          "CancelledData3",
+                          "CancelledData4",
+                          "CancelledData5",
+                          "CancelledData6",
+                          "CancelledData7",
+                          "CancelledData8",
+                          "CancelledData9",
+                          "CancelledData10",
+                          "CancelledData11",
+                          "CancelledData12",
+                          "CancelledData13",
+                          "CancelledData14",
+                          "CancelledData15",
+                          "CancelledData16",
+                        ],
+                        "value": "Cancelled"
+                      },
+                    ],
+                    "yAttributeValues": [
+                      21,39, 10, 14,16
+                    ]
+                  }
+                ],
+                "chartType": "horizontalBar",
+                "stylingInfo": {
+                  "displayDataLabels": true,
+                  "isYAxisPercentage": false,
+                  "plotDisplayTitle": "Horizontal Bar Chart",
+                  "staticColor": false
+                }
+              },
+              {
+                 "categoryDatasets": [
+                  {
+                    "categoryAttributeValue": "DataSet1",
+                    "xAttributeValues": [
+                      {
+                        "relatedBusinessKeys": [
+                          "PendingData1",
+                          "PendingData2",
+                          "PendingData3",
+                          "PendingData4",
+                          "PendingData5",
+                          "PendingData6",
+                          "PendingData7",
+                          "PendingData8",
+                          "PendingData9",
+                          "PendingData10",
+                          "PendingData11",
+                          "PendingData12",
+                          "PendingData13",
+                          "PendingData14",
+                          "PendingData15",
+                          "PendingData15",
+                          "PendingData17",
+                          "PendingData18",
+                          "PendingData19",
+                          "PendingData20",
+                          "PendingData21"
+                        ],
+                        "value": "Pending"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "InProgressData1",
+                          "InProgressData2",
+                          "InProgressData3",
+                          "InProgressData4",
+                          "InProgressData5",
+                          "InProgressData6",
+                          "InProgressData7",
+                          "InProgressData8",
+                          "InProgressData9",
+                          "InProgressData10",
+                          "InProgressData11",
+                          "InProgressData12",
+                          "InProgressData13",
+                          "InProgressData14",
+                          "InProgressData15",
+                          "InProgressData16",
+                          "InProgressData17",
+                          "InProgressData18",
+                          "InProgressData19",
+                          "InProgressData20",
+                          "InProgressData21",
+                          "InProgressData22",
+                          "InProgressData23",
+                          "InProgressData24",
+                          "InProgressData25",
+                          "InProgressData26",
+                          "InProgressData27",
+                          "InProgressData28",
+                          "InProgressData29",
+                          "InProgressData30",
+                          "InProgressData31",
+                          "InProgressData32",
+                          "InProgressData33",
+                          "InProgressData34",
+                          "InProgressData35",
+                          "InProgressData36",
+                          "InProgressData37",
+                          "InProgressData38",
+                          "InProgressData39",
+                        ],
+                        "value": "InProgress"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "OnHoldData1",
+                          "OnHoldData2",
+                          "OnHoldData3",
+                          "OnHoldData4",
+                          "OnHoldData5",
+                          "OnHoldData6",
+                          "OnHoldData7",
+                          "OnHoldData8",
+                          "OnHoldData9",
+                          "OnHoldData10",
+                        ],
+                        "value": "OnHold"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "CompleteData1",
+                          "CompleteData2",
+                          "CompleteData3",
+                          "CompleteData4",
+                          "CompleteData5",
+                          "CompleteData6",
+                          "CompleteData7",
+                          "CompleteData8",
+                          "CompleteData9",
+                          "CompleteData10",
+                          "CompleteData11",
+                          "CompleteData12",
+                          "CompleteData13",
+                          "CompleteData14"
+                        ],
+                        "value": "Complete"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "CancelledData1",
+                          "CancelledData2",
+                          "CancelledData3",
+                          "CancelledData4",
+                          "CancelledData5",
+                          "CancelledData6",
+                          "CancelledData7",
+                          "CancelledData8",
+                          "CancelledData9",
+                          "CancelledData10",
+                          "CancelledData11",
+                          "CancelledData12",
+                          "CancelledData13",
+                          "CancelledData14",
+                          "CancelledData15",
+                          "CancelledData16",
+                        ],
+                        "value": "Cancelled"
+                      },
+                    ],
+                    "yAttributeValues": [
+                      21,39, 10, 14,16
+                    ]
+                  }
+                ],
+                "chartType": "verticalBar",
+                "stylingInfo": {
+                  "displayDataLabels": true,
+                  "isYAxisPercentage": true,
+                  "plotDisplayTitle": "Vertical Bar Chart",
+                  "staticColor": false
+                }
+              },
+              {
+                "categoryDatasets": [
+                  {
+                    "categoryAttributeValue": "Status",
+                    "xAttributeValues": [
+                      {
+                        "relatedBusinessKeys": [
+                          "PendingData1",
+                          "PendingData2",
+                          "PendingData3",
+                          "PendingData4",
+                          "PendingData5",
+                          "PendingData6",
+                          "PendingData7",
+                          "PendingData8",
+                          "PendingData9",
+                          "PendingData10",
+                          "PendingData11",
+                          "PendingData12",
+                          "PendingData13",
+                          "PendingData14",
+                          "PendingData15",
+                          "PendingData15",
+                          "PendingData17",
+                          "PendingData18",
+                          "PendingData19",
+                          "PendingData20",
+                          "PendingData21"
+                        ],
+                        "value": "Pending"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "InProgressData1",
+                          "InProgressData2",
+                          "InProgressData3",
+                          "InProgressData4",
+                          "InProgressData5",
+                          "InProgressData6",
+                          "InProgressData7",
+                          "InProgressData8",
+                          "InProgressData9",
+                          "InProgressData10",
+                          "InProgressData11",
+                          "InProgressData12",
+                          "InProgressData13",
+                          "InProgressData14",
+                          "InProgressData15",
+                          "InProgressData16",
+                          "InProgressData17",
+                          "InProgressData18",
+                          "InProgressData19",
+                          "InProgressData20",
+                          "InProgressData21",
+                          "InProgressData22",
+                          "InProgressData23",
+                          "InProgressData24",
+                          "InProgressData25",
+                          "InProgressData26",
+                          "InProgressData27",
+                          "InProgressData28",
+                          "InProgressData29",
+                          "InProgressData30",
+                          "InProgressData31",
+                          "InProgressData32",
+                          "InProgressData33",
+                          "InProgressData34",
+                          "InProgressData35",
+                          "InProgressData36",
+                          "InProgressData37",
+                          "InProgressData38",
+                          "InProgressData39",
+                        ],
+                        "value": "InProgress"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "OnHoldData1",
+                          "OnHoldData2",
+                          "OnHoldData3",
+                          "OnHoldData4",
+                          "OnHoldData5",
+                          "OnHoldData6",
+                          "OnHoldData7",
+                          "OnHoldData8",
+                          "OnHoldData9",
+                          "OnHoldData10",
+                        ],
+                        "value": "OnHold"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "CompleteData1",
+                          "CompleteData2",
+                          "CompleteData3",
+                          "CompleteData4",
+                          "CompleteData5",
+                          "CompleteData6",
+                          "CompleteData7",
+                          "CompleteData8",
+                          "CompleteData9",
+                          "CompleteData10",
+                          "CompleteData11",
+                          "CompleteData12",
+                          "CompleteData13",
+                          "CompleteData14"
+                        ],
+                        "value": "Complete"
+                      },
+                      {
+                        "relatedBusinessKeys": [
+                          "CancelledData1",
+                          "CancelledData2",
+                          "CancelledData3",
+                          "CancelledData4",
+                          "CancelledData5",
+                          "CancelledData6",
+                          "CancelledData7",
+                          "CancelledData8",
+                          "CancelledData9",
+                          "CancelledData10",
+                          "CancelledData11",
+                          "CancelledData12",
+                          "CancelledData13",
+                          "CancelledData14",
+                          "CancelledData15",
+                          "CancelledData16",
+                        ],
+                        "value": "Cancelled"
+                      },
+                    ],
+                    "yAttributeValues": [
+                      21,39, 10, 14,16
+                    ]
+                  }
+                ],
+                "chartType": "polarArea",
+                "stylingInfo": {
+                  "displayDataLabels": true,
+                  "plotDisplayTitle": "Polar Area Chart"
+                }
+              },
+            ],
+            "colors": [
+              {
+                "key": "DataSet1",
+                "value": "00af8e"
+              },
+              {
+                "key": "Pending",
+                "value": "00d7a0"
+              },
+              {
+                "key": "OnHold",
+                "value": "fe8389"
+              },
+              {
+                "key": "Complete",
+                "value": "ff4a4a"
+              },
+              {
+                "key": "DataSet2",
+                "value": "00ffb9"
+              },
+              {
+                "key": "DataSet3",
+                "value": "ffd732"
+              },
+              {
+                "key": "Cancelled",
+                "value": "00bedc"
+              },
+              {
+                "key": "InProgress",
+                "value": "aaaa96"
+              },
+              {
+                "key": "empty",
+                "value": "9999a9"
+              },
+              {
+                "key": "*default*",
+                "value": "bff5ea"
+              },
+              {
+                "key": "*labels*",
+                "value": "3a3845"
+              },
+              {
+              "key": "number of letters",  
+              "value": "00d7a0"
+              }
+            ],
+            "layout": {
+              "grid": "3-3-1",
+              "message": "test message."
+            }
+          }

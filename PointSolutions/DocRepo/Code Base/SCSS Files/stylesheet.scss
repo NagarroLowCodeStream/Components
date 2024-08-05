@@ -1,0 +1,331 @@
+@import './custom-variables';
+
+
+
+button:hover {
+      transform: translate(0, -4px);
+    }
+
+mx-groupbox-body{
+/* Reset default margin and padding to avoid browser inconsistencies */
+body, h1, h2, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+group-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+group-box h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+}
+
+.custom-groupbox .mx-groupbox-header {
+background: #47D7AC;
+color: black;
+.glyphicon-minus:before {
+    content: "\e113";
+  }
+  .glyphicon-plus:before {
+    content: "\e114";
+  }
+}
+
+.custom-pop-up {
+  position: inherit !important;
+}
+
+.custom-pop-up > .popupmenu-menu{
+  top: 57px !important;
+  margin-top: 6%;
+ position: absolute;
+}
+
+.custom-checkbox input[type=checkbox]:before {
+    border: 1px solid #47D7AC;
+}
+
+.custom-checkbox input[type="checkbox"]:checked::before {
+    border-color: rgb(71, 215, 172);
+    background-color: rgb(71, 215, 172);
+}
+
+.custom-link {
+  color:black;
+}
+
+custom-layout{
+  
+background-color: #ddd;
+  padding: 20px;
+  text-align: center;
+
+}
+
+
+button{
+  padding: 8px 8px;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: transform 0.2s;
+      //box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    button:hover {
+      transform: translate(0, -5px);
+    }
+
+
+
+
+.datagridcustom{
+.table .table-content.infinite-loading {
+    overflow-y: hidden !important;}
+}
+
+.datagridcustom .column-selector-button{
+  color: #13294B;
+}
+
+.form-control{
+  font-size: 12px;
+}
+
+.td-custom-content{
+  text-align:center;
+}
+
+
+.nav-change{  
+  display : none;
+}  
+
+// Used mendix class for (.mx-listview[class*=lv-col].lv-col-sm-1 > ul > li )
+
+
+.custom-listview[class*=lv-col].lv-col-sm-1 > ul > li {
+     width: 9% !important; 
+     padding-bottom: 0px;
+      margin-bottom:0px;
+      //padding-left: 10px;
+}
+
+.custom-listview[class*=lv-col] > ul > li {
+  padding-left: 0px;
+  padding-right: opx;
+}
+
+.custom-listview.mx-listview > ul > li{
+  padding:0px;
+}
+
+.breadcrumb{
+  margin-bottom:0px;
+}
+
+.custom-dynamicImage1{
+   //border-radius: 50%;
+}
+
+// CSS start For hiding google translator
+
+iframe.skiptranslate{ 
+ display: none; 
+} 
+body.profile-desktop{ 
+ top: 0 !important; 
+} 
+#google_translate_element{ 
+ width: 0; 
+height: 0; 
+overflow: hidden; 
+display: none; 
+} 
+div#goog-gt-tt{ 
+ display: none !important; 
+}
+
+// CSS end For hiding google translator
+
+.profile > .mx-compound-control > .form-control{
+  background-color:#47D7AC;
+    width: 175px;
+  border:none;
+  font:black;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.form-horizontal .form-group.no-columns{
+  padding-left: 17px;
+  padding-right: 0px;
+}
+
+.font-margin {
+  margin-top: 7px;
+opacity: 1;
+}
+
+.font-size-16{
+  font-size: 16px;
+  color: #06041F;
+  font-weight: bold;
+}
+
+.font-size-14{
+  font-size: 14px;
+  color: #06041F;
+  font-weight: bold;
+}
+
+
+.topbar > .region-topbar{
+  background-color: #47D7AC;
+}
+ 
+
+
+// sidebar CSS Start
+.region-sidebar-color{
+  background-color: #fff !important;
+}
+
+.navbar-color > .navbar-inner > ul > li > a{
+  color: #13294B !important;
+  background-color: #FFFFFF !important;
+  .caret {
+    border-top-color: black !important ;
+    border-bottom-color: black !important;
+  }
+}
+
+.navbar-color > .navbar-inner > ul > li > a.active{
+  color: #47D7AC !important;
+  background-color: #FFFFFF !important;
+}
+
+
+
+.navbar-color > .navbar-inner > ul > li > a:hover{
+  color: #47D7AC !important;
+  background-color: #FFFFFF !important;
+}
+
+.region-sidebar-color .mx-navigationtree li.mx-navigationtree-has-items > ul li a {
+    color: black !important;
+    background-color: #fff !important;
+    //font-size: 12px;
+}
+
+.region-sidebar-color .mx-navigationtree li.mx-navigationtree-has-items > ul li a:hover {
+    color: #47D7AC !important;
+  background-color: #FFFFFF !important;
+}
+
+.region-sidebar-color .mx-navigationtree li.mx-navigationtree-has-items > ul li a.active {
+    color: #47D7AC !important;
+  background-color: #FFFFFF !important;
+}
+
+.region-sidebar-color .mx-navigationtree li.mx-navigationtree-has-items > ul{
+  background-color: #FFFFFF;
+}
+// sidebar CSS end
+
+// Tree view selected css start
+.custom-treeview .ant-tree-treenode.selected>.ant-tree-node-content-wrapper .ant-tree-title {
+    font-weight: bold;
+    color: #47D7AC;
+}
+
+.custom-treeview .ant-tree-treenode.selected>.ant-tree-node-content-wrapper .ant-tree-iconEle {
+    font-weight: bold;
+    color: #47D7AC;
+}
+// Tree view selected css start
+
+.file_explorer_text{
+  font-size:18px ;
+}
+
+.file_explorer_text1{
+  font-size: 20px;
+}
+
+.breadcrumb_text{
+  font-size: 14px;
+  color: #4E5E78;
+
+}
+
+.breadcrumb_text_last{
+  font-size: 14px;
+  color: #4E5E78;
+  font-weight: bold;
+}
+
+
+.button_header{
+  font-size: 13px;
+  color: #13294B;
+}
+
+
+//Expand all & collapse all button css start
+
+.folder-action .row .col-lg-auto .mx-button span{
+  color: #47D7AC;
+}
+
+.folder-action .row .col-lg-auto .mx-button {
+  border: none;
+  background-color: transparent;
+}
+
+//Expand all & collapse all button css end>>>>>>> .r253
+
+.dataview_12 .container_1 
+{
+  padding: 13px 13px 13px 14px;
+  background-color:white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.toggle-menubar{
+  display: block !important;
+  background-color: #FFFFFF;
+}
+
+.simple-menubar{
+  display: none;
+}
+
+.toggle-menubar > ul li a{
+  color: #13294B !important;
+  border-bottom: none !important;
+  font-size: 12px !important;
+}
+
+.toggle-menubar > ul li a:hover{
+background-color:  #47D7AC !important;
+}
+
+.btn-border{
+  border: none;
+}
+
+.btn-default-style{
+  color: #13294B;
+    font-size: 14px;
+    border: none;
+    background: transparent;
+}
