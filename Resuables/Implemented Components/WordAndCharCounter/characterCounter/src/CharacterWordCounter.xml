@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="nagarro.charactercounter.CharacterCounter" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Character Counter</name>
+    <description>Show number of chacters typed against number of characters left</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="General">
+             <property key="content" type="widgets" required="false">
+                <caption>Content</caption>
+                <description>Content of a box</description>
+            </property>
+            <property key="characterLimit" type="integer" defaultValue="200">
+                <caption>EnableCharacterLimit</caption>
+                <description></description>
+            </property>
+            <property key="showCharacterLimitFeedback" type="boolean" defaultValue="true">
+                <caption>EnableCharacterLimitFeedback </caption>
+                <description></description>
+            </property>
+            <property key="showWordCount" type="boolean" defaultValue="false">
+                <caption>EnableWordCount</caption>
+                <description></description>
+            </property>
+            <property key="showCharacterCount" type="boolean" defaultValue="true">
+                <caption>EnableCharacterCount</caption>
+                <description></description>
+            </property>
+            <property key="showRichTextToolbar" type="boolean" defaultValue="true">
+                <caption>EnableRichText</caption>
+                <description></description>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
